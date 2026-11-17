@@ -25,3 +25,4 @@ Expected result: 5 tests passed, then the message QUALITY GATE PASSED.
 ## Exit status
 
 check.sh stops with a non-zero exit status if any test fails, and exits with status 0 only if all tests pass. Check it with `echo $?` straight after running the script. A CI job can use this status to pass or fail a build.
+Operations: + - * /
