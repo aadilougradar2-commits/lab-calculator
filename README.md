@@ -1,12 +1,26 @@
 # Calculator lab project
 
+## Prerequisites
+- Python 3 must be installed.
+
 ## How to run it
+1. Open a terminal in the calculator folder.
+2. Run the startup script:
 
-Requires Python 3.
+   ./run.sh
 
-    python3 calculator.py
+## Sample test
+Enter the following values:
+- First number: 6
+- Operator: *
+- Second number: 7
 
-Enter a first number, an operator (+ - * /) and a second number. Press Ctrl+C to stop.
+Expected result:
+
+Result: 42.0
+
+## How to stop
+Press Ctrl + C in the terminal.
 
 ## Running the tests
 
@@ -25,4 +39,5 @@ Expected result: 5 tests passed, then the message QUALITY GATE PASSED.
 ## Exit status
 
 check.sh stops with a non-zero exit status if any test fails, and exits with status 0 only if all tests pass. Check it with `echo $?` straight after running the script. A CI job can use this status to pass or fail a build.
+
 Operations: + - * /
