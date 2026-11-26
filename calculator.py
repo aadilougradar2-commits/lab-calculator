@@ -10,6 +10,12 @@ def multiply(a, b):
 def divide(a, b):
     return a / b
 
+def CircleArea(r):
+    if r >= 0:
+        return 3.14 * r * r
+    else:
+        return "Error"
+
 
 def main():
     while True:
